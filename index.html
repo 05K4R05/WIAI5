@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oskar Witała">
+    <title>Kolory</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .kontener {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+            padding: 30px;
+            height: 700px;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: gray;
+        }
+
+        .przedmiot {
+            font-size: 30px;
+            text-align: center;
+            color: rosybrown;
+        }
+
+        .czarny {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .czerwony {
+            background-color: rgb(255, 0, 0);
+        }
+
+        .zielony {
+            background-color: rgb(0, 255, 0);
+        }
+
+        .niebieski {
+            background-color: rgb(0, 0, 255);
+        }
+
+        .biały {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .żółty {
+            background-color: rgb(255, 255, 0);
+        }
+
+        .różowy {
+            background-color: rgb(255, 0, 255);
+        }
+
+        .turkusowy {
+            background-color: rgb(0, 255, 255);
+        }
+
+        .pomarańczowy {
+            background-color: rgb(255, 128, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="kontener">
+        <div class="przedmiot czarny">Czarny</div>
+        <div class="przedmiot czerwony">Czerwony</div>
+        <div class="przedmiot zielony">Zielony</div>
+        <div class="przedmiot biały">Biały</div>
+        <div class="przedmiot niebieski">Niebieski</div>
+        <div class="przedmiot pomarańczowy">Pomarańczowy</div>
+        <div class="przedmiot turkusowy">Turkusowy</div>
+        <div class="przedmiot różowy">Różowy</div>
+        <div class="przedmiot żółty">Żółty</div>
+    </div>
+</body>
+</html>
